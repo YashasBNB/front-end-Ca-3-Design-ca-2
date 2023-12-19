@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Whisper&display=swap');
+/* Resetting margin for the body */
+body {
+    margin: 0;
+}
+/* Header styles */
+header {
+    background-color: #000B2E;
+    color: white;
+    padding: 20px;
+    height: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+/* Header content styles */
+.content-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+/* style Logo styles */
+.logo img {
+    height: 200px;
+}
+
+/* Name and Search sections styles */
+.name, .search {
+    flex: 1;
+    text-align: center;
+}
+
+/* Heading styles */
+header h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 56px;
+}
+
+/* Paragraph styles */
+header p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Search bar styles */
+#search-bar {
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px; 
+}
+/* Updated styles for random meal card */
+#random-meal-card {
+    background-color: #000B2E; 
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#random-meal-card img {
+    border-radius: 60%;
+}
+/* Existing card styles */
+#card {
+    background-color: #000B2E;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 60%;
+}
+
+/* Existing meal details styles */
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#meal-header {
+    width: 0;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
